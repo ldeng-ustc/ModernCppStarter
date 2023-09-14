@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.14...3.22)
 
 # ---- Project ----
-
-# Note: update this to your new project's name and version
+include(info.cmake)
 project(
-  Greeter
+  ${MAIN_PROJECT_NAME}
   VERSION 1.0
   LANGUAGES CXX
 )
